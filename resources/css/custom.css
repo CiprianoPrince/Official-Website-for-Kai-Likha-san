@@ -1,0 +1,108 @@
+.element::-webkit-scrollbar {
+	width: 0 !important
+}
+
+.element {
+	overflow: -moz-scrollbars-none;
+}
+
+.element {
+	-ms-overflow-style: none;
+}
+
+.card-name-truncate-sm {
+	width: 178px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.card-name-truncate-lg {
+	width: 272px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.hide-after-four {
+	display: -webkit-box;
+	max-width: 200px;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.hide-after-two {
+	display: -webkit-box;
+	/* max-width: 178px; */
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.klhs-card {
+	height: 400px;
+	width: 100%;
+}
+
+.klhs-img__card--256 {
+	height: 256px;
+	width: 100%;
+}
+
+.klhs-img__card--512 {
+	height: 100%;
+	width: 100%;
+}
+
+.klhs-img-lg {
+	height: 400px;
+	width: 100%;
+}
+
+.klhs-img-xl {
+	height: 400px;
+	width: 100%;
+}
+
+.klhs-img-xxl {
+	height: 220px !important;
+	width: 100% !important;
+}
+
+.klhs-img-xxxl {
+	height: 373px !important;
+	width: 373px !important;
+}
+
+.klhs-img-xxxxl {
+	height: 500px !important;
+	width: 900px !important;
+}
+
+.avatar-xxxl {
+	width: 194px !important;
+	height: 194px !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+button[class*="js-add-to-cart-btn"]:hover,
+button[class*="js-add-to-wishlist-btn"]:hover,
+button.js-quickview:hover{
+	color: #344767 !important;
+}
+
+.input-a {
+	border: 2px solid #e91e63;
+}
